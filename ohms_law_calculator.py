@@ -33,3 +33,6 @@ elif choice == "R":
     else:
         resistance = voltage / current
         print(f"Resistance (R) = {round(resistance, 2)} ohms")
+# Handle invalid choice with an error message
+else:
+    print("Invalid choice. Please enter 'I', 'V', or 'R'.")
