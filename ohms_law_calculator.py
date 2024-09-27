@@ -23,3 +23,7 @@ elif choice == "I":
     else:
         current = voltage / resistance
         print(f"Current (I) = {round(current, 2)} amperes")
+
+# Calculate Resistance if user entered 'R'
+elif choice == "R":
+    voltage = float(input("Enter the voltage (V) in volts: "))
