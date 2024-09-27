@@ -27,3 +27,4 @@ elif choice == "I":
 # Calculate Resistance if user entered 'R'
 elif choice == "R":
     voltage = float(input("Enter the voltage (V) in volts: "))
+    current = float(input("Enter the current (I) in amperes: "))
