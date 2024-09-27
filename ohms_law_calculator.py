@@ -12,4 +12,8 @@ if choice == "V":
     current = float(input("Enter the current (I) in amperes: "))
     resistance = float(input("Enter the resistance (R) in ohms: "))
     voltage = current * resistance  # Calculate the voltage using Ohm's Law: V = I * R
-    print(f"Voltage (V) = {round(voltage, 2)} volts") 
+    print(f"Voltage (V) = {round(voltage, 2)} volts")
+
+# Calculate Current if user entered 'I'
+elif choice == "I":
+    voltage = float(input("Enter the voltage (V) in volts: "))
