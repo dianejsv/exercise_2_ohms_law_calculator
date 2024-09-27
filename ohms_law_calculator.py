@@ -9,3 +9,6 @@ choice = input("\nEnter the letter you want to calculate (I, V, or R): ").strip(
 
 # Calculate Voltage if user entered 'V'
 if choice == "V":
+    current = float(input("Enter the current (I) in amperes: "))
+    resistance = float(input("Enter the resistance (R) in ohms: "))
+    voltage = current * resistance  # Calculate the voltage using Ohm's Law: V = I * R
