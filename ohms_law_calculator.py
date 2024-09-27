@@ -17,3 +17,6 @@ if choice == "V":
 # Calculate Current if user entered 'I'
 elif choice == "I":
     voltage = float(input("Enter the voltage (V) in volts: "))
+    resistance = float(input("Enter the resistance (R) in ohms: "))
+    if resistance == 0:  # Check for division by zero
+        print("\n\033[0;31mResistance cannot be zero. Division by zero error.\033[0m")
