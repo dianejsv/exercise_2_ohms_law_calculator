@@ -30,3 +30,6 @@ elif choice == "R":
     current = float(input("Enter the current (I) in amperes: "))
     if current == 0:  # Check for division by zero
         print("\n\033[0;31mCurrent cannot be zero. Division by zero error.\033[0m")
+    else:
+        resistance = voltage / current
+        print(f"Resistance (R) = {round(resistance, 2)} ohms")
