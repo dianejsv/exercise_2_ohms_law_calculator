@@ -28,3 +28,5 @@ elif choice == "I":
 elif choice == "R":
     voltage = float(input("Enter the voltage (V) in volts: "))
     current = float(input("Enter the current (I) in amperes: "))
+    if current == 0:  # Check for division by zero
+        print("\n\033[0;31mCurrent cannot be zero. Division by zero error.\033[0m")
